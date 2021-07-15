@@ -1,0 +1,120 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wither_skeleton_skull",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": "Frightful Fearsome Foe",
+		"description": ["",{"text":"Equip a Wither Skeleton with a full set of highly-enchanted Netherite armor","color":"#C77AFF"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "beyond_armor:beyond_armor",
+	"criteria": {
+		"equip": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"entity": {
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:netherite_helmet"
+							],
+							"enchantments": [
+								{
+									"enchantment": "minecraft:unbreaking",
+									"levels": 3
+								},
+								{
+									"enchantment": "minecraft:mending",
+									"levels": 1
+								},
+								{
+									"enchantment": "minecraft:protection",
+									"levels": 4
+								},
+								{
+									"enchantment": "minecraft:respiration",
+									"levels": 3
+								},
+								{
+									"enchantment": "minecraft:aqua_affinity",
+									"levels": 1
+								}
+							]
+						},
+						"chest": {
+							"items": [
+								"minecraft:netherite_chestplate"
+							],
+							"enchantments": [
+								{
+									"enchantment": "minecraft:unbreaking",
+									"levels": 3
+								},
+								{
+									"enchantment": "minecraft:mending",
+									"levels": 1
+								},
+								{
+									"enchantment": "minecraft:protection",
+									"levels": 4
+								}
+							]
+						},
+						"legs": {
+							"items": [
+								"minecraft:netherite_leggings"
+							],
+							"enchantments": [
+								{
+									"enchantment": "minecraft:unbreaking",
+									"levels": 3
+								},
+								{
+									"enchantment": "minecraft:mending",
+									"levels": 1
+								},
+								{
+									"enchantment": "minecraft:protection",
+									"levels": 4
+								}
+							]
+						},
+						"feet": {
+							"items": [
+								"minecraft:netherite_boots"
+							],
+							"enchantments": [
+								{
+									"enchantment": "minecraft:unbreaking",
+									"levels": 3
+								},
+								{
+									"enchantment": "minecraft:mending",
+									"levels": 1
+								},
+								{
+									"enchantment": "minecraft:protection",
+									"levels": 4
+								},
+								{
+									"enchantment": "minecraft:feather_falling",
+									"levels": 4
+								},
+								{
+									"enchantment": "minecraft:depth_strider",
+									"levels": 3
+								},
+								{
+									"enchantment": "minecraft:soul_speed",
+									"levels": 3
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}
