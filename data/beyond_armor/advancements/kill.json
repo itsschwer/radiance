@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_helmet",
+			"nbt": "{CustomModelData:sba_halo}"
+		},
+		"title": "Radiant",
+		"description": ["",{"text":"Kill a Horned Wither Skeleton","color":"#C77AFF"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "beyond_armor:convert",
+	"criteria": {
+		"kill": {
+			"trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"sba_horned\"]}"
+                }
+            }
+		}
+	},
+	"rewards": {
+        "function": "beyond_armor:give_halo"
+    }
+}
