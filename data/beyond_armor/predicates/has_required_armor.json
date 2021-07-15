@@ -1,0 +1,104 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "head": {
+                "items": [
+                    "minecraft:netherite_helmet"
+                ],
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:unbreaking",
+                        "levels": 3
+                    },
+                    {
+                        "enchantment": "minecraft:mending",
+                        "levels": 1
+                    },
+                    {
+                        "enchantment": "minecraft:protection",
+                        "levels": 4
+                    },
+                    {
+                        "enchantment": "minecraft:respiration",
+                        "levels": 3
+                    },
+                    {
+                        "enchantment": "minecraft:aqua_affinity",
+                        "levels": 1
+                    }
+                ]
+            },
+            "chest": {
+                "items": [
+                    "minecraft:netherite_chestplate"
+                ],
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:unbreaking",
+                        "levels": 3
+                    },
+                    {
+                        "enchantment": "minecraft:mending",
+                        "levels": 1
+                    },
+                    {
+                        "enchantment": "minecraft:protection",
+                        "levels": 4
+                    }
+                ]
+            },
+            "legs": {
+                "items": [
+                    "minecraft:netherite_leggings"
+                ],
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:unbreaking",
+                        "levels": 3
+                    },
+                    {
+                        "enchantment": "minecraft:mending",
+                        "levels": 1
+                    },
+                    {
+                        "enchantment": "minecraft:protection",
+                        "levels": 4
+                    }
+                ]
+            },
+            "feet": {
+                "items": [
+                    "minecraft:netherite_boots"
+                ],
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:unbreaking",
+                        "levels": 3
+                    },
+                    {
+                        "enchantment": "minecraft:mending",
+                        "levels": 1
+                    },
+                    {
+                        "enchantment": "minecraft:protection",
+                        "levels": 4
+                    },
+                    {
+                        "enchantment": "minecraft:feather_falling",
+                        "levels": 4
+                    },
+                    {
+                        "enchantment": "minecraft:depth_strider",
+                        "levels": 3
+                    },
+                    {
+                        "enchantment": "minecraft:soul_speed",
+                        "levels": 3
+                    }
+                ]
+            }
+        }
+    }
+}

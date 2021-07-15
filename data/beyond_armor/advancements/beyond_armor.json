@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chainmail_boots",
+			"nbt": "{CustomModelData:sba}"
+		},
+		"title": "Beyond Armor",
+		"description": ["",{"text":"Work in progress","color":"#C77AFF"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "schwer:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
