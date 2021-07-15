@@ -5,6 +5,7 @@
 			"nbt": "{Enchantments:[{}]}"
 		},
 		"title": "Frightful Fearsome Foe",
+		"frame": "challenge",
 		"description": ["",{"text":"Equip a Wither Skeleton with a full set of highly-enchanted Netherite armor","color":"#C77AFF"}],
 		"show_toast": true,
 		"announce_to_chat": true
