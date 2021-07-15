@@ -1,8 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chainmail_boots",
-			"nbt": "{CustomModelData:sba}"
+			"item": "minecraft:golden_helmet",
+			"nbt": "{CustomModelData:sba_halo}"
 		},
 		"title": "Beyond Armor",
 		"description": ["",{"text":"Work in progress","color":"#C77AFF"}],
