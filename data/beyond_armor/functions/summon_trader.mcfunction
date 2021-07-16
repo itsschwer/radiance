@@ -1,3 +1,5 @@
+# Separate summoning and trade setting so that some regular wandering trader offers are also available
+
 # Summon horned wandering trader that despawns after 5 minutes (6000 ticks)
 summon wandering_trader ~ ~ ~ {Tags:["sba_trader"],DespawnDelay:6000,ArmorItems:[{},{},{},{id:"minecraft:end_rod",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}
 
