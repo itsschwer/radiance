@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:golden_helmet",
-			"nbt": "{CustomModelData:sba_halo}"
+			"nbt": "{CustomModelData:sba_radiance}"
 		},
 		"title": "Beyond Armor",
 		"description": ["",{"text":"Work in progress","color":"#C77AFF"}],
