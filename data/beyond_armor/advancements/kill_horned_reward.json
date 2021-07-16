@@ -1,5 +1,5 @@
 {
-	"parent": "beyond_armor:kill_horned",
+	"parent": "radiance:kill_horned",
 	"criteria": {
 		"kill": {
 			"trigger": "minecraft:player_killed_entity",
@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-        "function": "beyond_armor:kill_horned_reward"
+        "function": "radiance:kill_horned_reward"
     }
 }

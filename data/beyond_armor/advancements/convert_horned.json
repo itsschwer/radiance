@@ -10,7 +10,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "beyond_armor:beyond_armor",
+	"parent": "radiance:radiance",
 	"criteria": {
 		"equip": {
 			"trigger": "minecraft:thrown_item_picked_up_by_entity",

@@ -1,5 +1,5 @@
 # Summon trader as replacement
-function beyond_armor:summon_trader
+function radiance:summon_trader
 
 # Local event
 playsound minecraft:block.respawn_anchor.deplete master @a ~ ~ ~

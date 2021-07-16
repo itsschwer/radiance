@@ -8,7 +8,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "beyond_armor:beyond_armor",
+	"parent": "radiance:radiance",
 	"criteria": {
 		"trade": {
 			"trigger": "minecraft:villager_trade",

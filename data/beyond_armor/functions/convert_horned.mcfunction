@@ -1,5 +1,5 @@
 # Summon horned as replacement
-function beyond_armor:summon_horned
+function radiance:summon_horned
 
 # Global event
 execute as @a at @s run playsound minecraft:entity.lightning_bolt.thunder hostile @s

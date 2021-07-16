@@ -1,1 +1,1 @@
-function beyond_armor:tick
+function radiance:tick

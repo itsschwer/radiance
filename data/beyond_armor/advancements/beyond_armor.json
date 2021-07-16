@@ -4,7 +4,7 @@
 			"item": "minecraft:golden_helmet",
 			"nbt": "{CustomModelData:115114100}"
 		},
-		"title": "Beyond Armor",
+		"title": "Radiance",
 		"description": ["",{"text":"Work in progress","color":"#C77AFF"}],
 		"show_toast": false,
 		"announce_to_chat": false

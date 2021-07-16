@@ -7,7 +7,7 @@
                 "nbt": "{srd_radiance:1}"
             },
             "feet": {
-                "tag": "beyond_armor:radiance_incompatible"
+                "tag": "radiance:radiance_incompatible"
             }
         }
     }
