@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "head": {
+                "nbt": "{CustomModelData:\"sba_radiance\"}"
+            },
+            "feet": {
+                "tag": "beyond_armor:radiance_incompatible"
+            }
+        }
+    }
+}

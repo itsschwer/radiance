@@ -1,0 +1,19 @@
+{
+	"values": [
+		"minecraft:chainmail_chestplate",
+		"minecraft:chainmail_leggings",
+		"minecraft:chainmail_boots",
+		"minecraft:iron_chestplate",
+		"minecraft:iron_leggings",
+		"minecraft:iron_boots",
+		"minecraft:golden_chestplate",
+		"minecraft:golden_leggings",
+		"minecraft:golden_boots",
+		"minecraft:diamond_chestplate",
+		"minecraft:diamond_leggings",
+		"minecraft:diamond_boots",
+		"minecraft:netherite_chestplate",
+		"minecraft:netherite_leggings",
+		"minecraft:netherite_boots"
+	]
+}
