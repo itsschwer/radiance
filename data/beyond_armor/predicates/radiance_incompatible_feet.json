@@ -4,7 +4,7 @@
     "predicate": {
         "equipment": {
             "head": {
-                "nbt": "{CustomModelData:\"sba_radiance\"}"
+                "nbt": "{sba_radiance:1}"
             },
             "feet": {
                 "tag": "beyond_armor:radiance_incompatible"
