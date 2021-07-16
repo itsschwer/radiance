@@ -15,7 +15,7 @@
 			"trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "nbt": "{Tags:[\"sba_horned\"]}"
+                    "nbt": "{Tags:[\"srd_horned\"]}"
                 }
             }
 		}

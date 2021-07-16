@@ -14,7 +14,7 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{Tags:[\"sba_trader\"]}"
+					"nbt": "{Tags:[\"srd_trader\"]}"
 				}
 			}
 		}
