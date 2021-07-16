@@ -16,6 +16,7 @@
 			"trigger": "minecraft:thrown_item_picked_up_by_entity",
 			"conditions": {
 				"entity": {
+					"type": "minecraft:wither_skeleton",
 					"equipment": {
 						"head": {
 							"items": [
