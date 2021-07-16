@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wandering_trader_spawn_egg"
+		},
+		"title": "Wandering Spirit",
+		"description": ["",{"text":"Equip an unemployed Villager with a ","color":"#C77AFF"},{"text":"Diamond Chestplate","color":"yellow"},{"text":" named ","color":"#C77AFF"},{"text":"Wanderer's Spirit","color":"yellow","italic":true},{"text":" and trade with them","color":"#C77AFF"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "beyond_armor:beyond_armor",
+	"criteria": {
+		"trade": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{Tags:[\"sba_trader\"]}"
+				}
+			}
+		}
+	}
+}
