@@ -57,3 +57,9 @@ TBA
     - *Used to generate `/summon` commands*
 - [Minecraft UUID Converter](https://www.soltoder.com/mc-uuid-converter/)
     - *Used to convert the helmet attribute modifer UUID listed on the Minecraft Wiki from hyphenated hexadecimal to an int array*
+- [Fabian Röling — Target specific inventory slot](https://gaming.stackexchange.com/questions/313567/how-can-i-test-for-a-player-wearing-specific-armor)
+    - *Pointed me towards using `Inventory[{Slot:103b}]`*
+- [Vanilla Tweaks — Golden Crown](https://vanillatweaks.net/picker/resource-packs/)
+    - *Used to set up the resource pack structure.*
+- [BronGhast014 — How to use Custom Model Data in Minecraft!](https://www.youtube.com/watch?v=HrFMdcjonyo)
+    - *Used to learn how to create model overrides*
