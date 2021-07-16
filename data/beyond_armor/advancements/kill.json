@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-        "function": "beyond_armor:give_halo"
+        "function": "beyond_armor:give_fragile_halo"
     }
 }
