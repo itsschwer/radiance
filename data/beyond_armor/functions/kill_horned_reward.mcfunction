@@ -1,0 +1,2 @@
+function beyond_armor:give_fragile_radiance
+advancement revoke @s only beyond_armor:kill_horned_reward

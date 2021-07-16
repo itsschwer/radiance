@@ -9,7 +9,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "beyond_armor:convert",
+	"parent": "beyond_armor:convert_horned",
 	"criteria": {
 		"kill": {
 			"trigger": "minecraft:player_killed_entity",
@@ -19,8 +19,5 @@
                 }
             }
 		}
-	},
-	"rewards": {
-        "function": "beyond_armor:give_fragile_radiance"
-    }
+	}
 }
