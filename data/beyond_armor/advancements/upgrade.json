@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:golden_helmet",
-			"nbt": "{CustomModelData:sba_radiance,Enchantments:[{}]}"
+			"nbt": "{CustomModelData:115114100,Enchantments:[{}]}"
 		},
 		"title": "Unusual Trades",
 		"description": ["",{"text":"Trade for a better Radiance","color":"#C77AFF"}],
@@ -15,7 +15,7 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"item": {
-					"nbt": "{CustomModelData:sba_radiance}"
+					"nbt": "{CustomModelData:115114100}"
 				}
 			}
 		}
