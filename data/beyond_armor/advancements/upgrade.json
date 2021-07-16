@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:golden_helmet",
-			"nbt": "{CustomModelData:sba_radiance}"
+			"nbt": "{CustomModelData:sba_radiance,Enchantments:[{}]}"
 		},
 		"title": "Unusual Trades",
 		"description": ["",{"text":"Trade for a better Radiance","color":"#C77AFF"}],

@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:golden_helmet",
-			"nbt": "{CustomModelData:sba_radiance}"
+			"nbt": "{CustomModelData:sba_radiance,Enchantments:[{}]}"
 		},
 		"title": "Radiant",
 		"description": ["",{"text":"Kill a Horned Wither Skeleton","color":"#C77AFF"}],
