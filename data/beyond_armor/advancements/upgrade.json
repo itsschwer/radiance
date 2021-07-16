@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_helmet",
+			"nbt": "{CustomModelData:sba_radiance}"
+		},
+		"title": "Unusual Trades",
+		"description": ["",{"text":"Trade for a better Radiance","color":"#C77AFF"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "beyond_armor:trade",
+	"criteria": {
+		"upgrade": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"nbt": "{CustomModelData:sba_radiance}"
+				}
+			}
+		}
+	}
+}
