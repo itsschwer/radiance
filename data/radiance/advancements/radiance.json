@@ -5,6 +5,7 @@
 			"nbt": "{CustomModelData:115114100}"
 		},
 		"title": "Radiance",
+		"frame": "goal",
 		"description": ["",{"text":"An aesthetic alternative to Netherite armor","color":"#C77AFF"}],
 		"show_toast": false,
 		"announce_to_chat": false
