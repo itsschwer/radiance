@@ -6,6 +6,8 @@ A datapack implementing a unique new alternative to Netherite armor focused on a
 
 This datapack aims to provide a balanced, survival-friendly alternative to Netherite armor, including a unique obtaining method.
 
+The focus on aesthetics revolves around allowing players to show their skins without sacrificing defense. This is done by compacting a typical end-game armor set into a single item which is retextured using a complementary resource pack.
+
 ### Balancing
 Acquiring the new alternative, Radiance, requires significant effort. A player must defeat a customised Wither Skeleton, summoned by equipping a Wither Skeleton with a full set of highly-enchanted Netherite armor *(which is consumed on summon)*.
 
