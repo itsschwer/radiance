@@ -9,12 +9,18 @@ This datapack aims to provide a balanced, survival-friendly alternative to Nethe
 ### Balancing
 TBA
 
-#### Health after a hit from an Enderman on Hard difficulty:
-| Armor            | Health    |
-| ---              | ---       |
-| Radiance         |      17.9 |
-| Flight Netherite | 16.621223 |
-| Full Netherite   |  18.92648 |
+#### Health Data
+Player health remaining after a hit on Hard difficulty from full health *(20.0)*:
+
+| Armor                                  | Zombie *(unarmed)* | Enderman  | Vindicator *(Iron Axe)* |
+| ---                                    | ---                | ---       | ---                     |
+| Radiance                               | 19.1               |      17.9 | 16.1                    |
+| Flight Netherite *(all Protection IV)* | 18.684093          | 16.621223 | 12.866212               |
+| Full Netherite *(all Protection IV)*   | 19.61768           |  18.92648 | 17.50088                |
+
+Note: regular Netherite armor calculates damage reduction using Armor, Armor Toughness, and Enchantment Protection Factor (EPF), whereas Radiance relies solely on EPF *(hence the value for flight Netherite v. Vindicator)*.
+
+*Data obtained using a repeating command block set to `tellraw @p {"nbt":"Health","entity":"@p"}`*
 
 ## Guide
 *This datapack was developed in 1.17 (`"pack_format": 7`) but should be compatible with versions using an equivalent or greater `pack_format`, barring major changes to commands/datapacks.*
