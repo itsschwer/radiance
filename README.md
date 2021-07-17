@@ -46,7 +46,11 @@ Note: regular Netherite armor calculates damage reduction using Armor, Armor Tou
 
 ## Mechanics
 
-TBA
+### Horned Wither Skeleton
+
+### Horned Wandering Trader
+
+### Radiance
 
 ## Functions
 *Split between 'Available' (i.e. fine to call using `/function`) and 'Internal' (not intended to be called by `/function`).*
