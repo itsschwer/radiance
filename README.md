@@ -60,22 +60,41 @@ Note: regular Netherite armor calculates damage reduction using Armor, Armor Tou
 ### Available
 
 #### `clear`
-TBA
+Removes the presence of this datapack by:
+- Clearing the scheduled `tick` function
+- Killing all Horned Wither Skeletons *(entities tagged `srd_horned`)*
+- Killing all Horned Wandering Traders *(entities tagged `srd_trader`)*
+
+Any existing Radiance items will remain *(though armor incompatibility will be inactive)*.
+
+*Note that since it is possible that unloaded chunks contain tagged entities, this can't guarantee to completely remove the presence of this datapack (i.e. some Horned Wither Skeletons and Horned Wandering Traders may still exist).*
 
 #### `give_aether_radiance`
-TBA
+Gives the target entity *(only succeeds for players)* a Radiance with Aether Affinity.
+
+Not used internally.
 
 #### `give_fragile_radiance`
-TBA
+Gives the target entity *(only succeeds for players)* a Fragile Radiance.
+
+Called by `kill_horned_reward`, which is a reward function for hidden advancement `kill_horned_reward`.
 
 #### `give_radiance`
-TBA
+Gives the target entity *(only succeeds for players)* a Radiance.
+
+Not used internally.
 
 #### `summon_horned`
-TBA
+Summons a Horned Wither Skeleton at the target location.
+
+Called internally by `convert_horned`.
 
 #### `summon_trader`
-TBA
+Summons a Horned Wandering Trader at the target location.
+
+Horned Wandering Traders are summoned with default Wandering Trader offers, with the first two offers overwritten by the custom Radiance trades.
+
+Called internally by `convert_trader`.
 
 ### Internal
 
