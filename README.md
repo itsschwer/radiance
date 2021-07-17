@@ -59,11 +59,67 @@ Note: regular Netherite armor calculates damage reduction using Armor, Armor Tou
 
 ### Available
 
+#### `clear`
+TBA
+
+#### `give_aether_radiance`
+TBA
+
+#### `give_fragile_radiance`
+TBA
+
+#### `give_radiance`
+TBA
+
+#### `summon_horned`
+TBA
+
+#### `summon_trader`
 TBA
 
 ### Internal
 
-TBA
+#### `armor_check`
+Checks all players equipped with Radiance for incompatible armor and calling `force_unequip_`\[`chest`/`legs`/`feet`\] on them as required.
+
+Uses predicates which use tags `aether_radiance_incompatible` *(chainmail, iron, gold, diamond, and netherite | chestplates, leggings, and boots)* and `radiance_incompatible` *(`#aether_radiance_incompatible` and Elytra)*.
+
+Run from `tick`.
+
+#### `convert_horned`
+Summons a Horned Wither Skeleton through `summon_horned`, replacing the target entity. Also handles conversion sound and particle effects.
+
+Called by `tick` on Wither Skeletons that match the predicate `has_required_armor`.
+
+#### `convert_trader`
+Summons a Horned Wandering Trader through `summon_trader`, replacing the target entity. Also handles conversion sound and particle effects.
+
+Called by `tick` on unemployed Villagers that are equipped with a Diamond Chestplate named *Wanderer's Spirit*.
+
+#### `force_unequip_`\[`chest`/`legs`/`feet`\]
+Forcibly unequips the specified armor slot of the target entity by copying the item into a new Item entity using `summon_copy` and replacing the slot with air.
+
+Called by `armor_check` on players that match certain predicates *(refer to `armor_check`)*.
+
+#### `kill_horned_reward`
+A reward function called by hidden advancement `kill_horned_reward` that calls `give_fragile_radiance` for the recipient.
+
+#### `load`
+Sets up this datapack by starting the `tick` loop.
+
+Called through Minecraft's *`load.json`*.
+
+#### `summon_copy`
+Summons a new Item entity and cuts the `Item` nbt from `schwer:srd_store`. Also sets the Item's `Owner` and `Thrower` to the target entity's UUID to control who can pick up the item and mimic normal item throwing respectively.
+
+<mark>Note: the `Owner` tag appears to be ignored by non-players (untest with players), unsure if this is intentional Minecraft behaviour.</mark>
+
+Called by `force_unequip_`\[`chest`/`legs`/`feet`\]
+
+#### `tick`
+The main update loop. Handles the conversion of Wither Skeletons to Horned Wither Skeletons and unemployed Villagers to Horned Wandering Traders, as well as Radiance armor checking.
+
+Initialises from `load`.
 
 ## References
 *(Roughly in personal use order)*
