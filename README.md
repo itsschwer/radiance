@@ -48,6 +48,25 @@ Note: regular Netherite armor calculates damage reduction using Armor, Armor Tou
 
 ### Horned Wither Skeleton
 
+Horned Wither Skeleton is a custom Wither Skeleton variant that can be visually identified by the End Rod protruding from their forehead and lack of weapon.
+
+Horned Wither Skeletons have increased health *(100/20)*, follow range *(24/16)*, movement speed *(0.3/0.25)*, and attack damage *(20/4)*, as well as higher knockback resistance *(0.6)*. Additionally, the do not despawn naturally.
+
+Horned Wither Skeletons do not drop anything, however, defeating one grants the killer the hidden advancement `kill_horned_reward`. This advancement rewards the recipient with a Fragile Radiance. Note that since this is an advancement reward, it is only obtainable through player kills.
+
+Wither Skeletons can be converted to Horned Wither Skeletons by equipping them with highly-enchanted Netherite armor *(as specified by the predicate `has_required_armor`)*.
+
+#### Required Enchantments *(any order)*
+
+| Netherite Helmet | Netherite Chestplate | Netherite Leggings | Netherite Boots    |
+| ---              | ---                  | ---                | ---                |
+| Unbreaking III   | Unbreaking III       | Unbreaking III     | Unbreaking III     |
+| Mending          | Mending              | Mending            | Mending            |
+| Protection IV    | Protection IV        | Protection IV      | Protection IV      |
+| Respiration III  |                      |                    | Feather Falling IV |
+| Aqua Affinity    |                      |                    | Depth Strider III  |
+|                  |                      |                    | Soul Speed III     |
+
 ### Horned Wandering Trader
 
 Horned Wandering Trader is a custom Wandering Trader variant that can be visually identified by the End Rod protruding from their forehead.
