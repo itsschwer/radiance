@@ -7,7 +7,13 @@ A datapack implementing a unique new alternative to Netherite armor focused on a
 This datapack aims to provide a balanced, survival-friendly alternative to Netherite armor, including a unique obtaining method.
 
 ### Balancing
-TBA
+Acquiring the new alternative, Radiance, requires significant effort. A player must defeat a customised Wither Skeleton, summoned by equipping a Wither Skeleton with a full set of highly-enchanted Netherite armor *(which is consumed on summon)*.
+
+Summoning a customised Wandering Trader requires a Villager and a Diamond Chestplate, both of which are consumed on summon, as well as Phantom Membranes and Nether Stars used in trades to upgrade a Radiance.
+
+Equipping a Radiance will forcibly unequip any other armor on the player, meaning that players can't stack the effects of Radiance with other armor. Additionally, the default Radiance also prevents players from equipping Elytra unless upgraded through the custom Wandering Trader.
+
+Radiance provides the wearer with the highest Enchantment Protection Factor possible *(20)*, providing the wearer with damage reduction slightly below that of a full set of Protection IV Netherite armor. Additionally, Radiance provides the wearer with +4 Knockback Resistance *(same as a full set of Netherite Armor)*.
 
 #### Health Data
 Player health remaining after a hit on Hard difficulty from full health *(20.0)*:
