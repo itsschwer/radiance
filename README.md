@@ -24,7 +24,7 @@ TBA
     - [Release](https://github.com/itsschwer/gateways/releases) *(will need to unzip before installing into a save)*
 2. Install into a save like any other datapack.
 3. *(Optional)* Copy the bundled `radiance_visual` resource pack into `.minecraft/resourcepacks`
-    - <mark>Vanilla Minecraft currently doesn't support using `CustomModelData` to override armor models</mark>, so the current options are to:
+    - <mark>Vanilla Minecraft currently doesn't support using `CustomModelData` to override armor models [*(feedback post)*](https://feedback.minecraft.net/hc/en-us/community/posts/360056255091-Custom-armor-models)</mark>, so the current options are to:
         - Make all Radiance render as a Golden Helmet when equipped *(default)*
         - Make all Golden Helmets render as a Radiance when equipped *(manually rename)*
             - In `radiance_visual/assets/minecraft/textures/models/armor/`, rename `radiance.png` to `gold_layer_1.png`
