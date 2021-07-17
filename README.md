@@ -15,7 +15,7 @@ Acquiring the new alternative, Radiance, requires significant effort. A player m
 
 Summoning a customised Wandering Trader requires a Villager and a Diamond Chestplate, both of which are consumed on summon, as well as Phantom Membranes and Nether Stars used in trades to upgrade a Radiance.
 
-Equipping a Radiance will forcibly unequip any other armor on the player, meaning that players can't stack the effects of Radiance with other armor. Additionally, the default Radiance also prevents players from equipping Elytra unless upgraded through the custom Wandering Trader.
+Equipping a Radiance will forcibly unequip any other armor *(except leather)* on the player, meaning that players can't stack the effects of Radiance with other armor. Additionally, the default Radiance also prevents players from equipping Elytra unless upgraded through the custom Wandering Trader.
 
 Radiance provides the wearer with the highest Enchantment Protection Factor possible *(20)*, providing the wearer with damage reduction slightly below that of a full set of Protection IV Netherite armor. Additionally, Radiance provides the wearer with +4 Knockback Resistance *(same as a full set of Netherite Armor)*.
 
