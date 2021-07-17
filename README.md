@@ -50,6 +50,18 @@ Note: regular Netherite armor calculates damage reduction using Armor, Armor Tou
 
 ### Horned Wandering Trader
 
+Horned Wandering Trader is a custom Wandering Trader variant that can be visually identified by the End Rod protruding from their forehead.
+
+Unemployed Villagers can be converted to Horned Wandering Traders by equipping one with a Diamond Chestplate named *Wanderer's Spirit* using a Dispenser. Both the Villager and the Diamond Chestplate are consumed in the process. A Horned Wandering Trader will despawn 6000 ticks *(5 minutes)* after it is summoned.
+
+Horned Wandering Traders have the same trades as regular Wandering Trader offers, except the first two offers overwritten by the custom Radiance trades.
+
+#### Custom Radiance Trades
+| Buy | BuyB | Sell |
+| --- | ---  | ---  |
+| Radiance *(Unbreakable)* | Phantom Membrane (16) | Radiance *(+ Aether Affinity)* |
+| Fragile Radiance | Nether Star (3) | Radiance *(Unbreakable)* |
+
 ### Radiance
 
 ## Functions
