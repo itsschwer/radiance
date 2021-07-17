@@ -83,6 +83,29 @@ Horned Wandering Traders have the same trades as regular Wandering Trader offers
 
 ### Radiance
 
+Radiance is the new alternative to Netherite armor and has three variants: fragile, unbreakable, and aether.
+
+All Radiance provide +4 Knockback Resistance and are enchanted with:
+- Protection ※ *(XX)*
+- Respiration III
+- Depth Strider III
+- Soul Speed III <mark>*(this enchantment only works on boots)*</mark>
+- Aqua Affinity
+
+Fragile Radiance is the base Radiance obtainable by killing a Horned Wither Skeleton.
+As per its name, it has limited durability *(same as a Golden Helmet; 77)*.
+
+Unbreakable Radiance is an upgrade to Fragile Radiance that can be obtained by trading with a Horned Wandering Trader.
+As per its name, this variant is unbreakable.
+
+Aether Radiance is an upgrade to Unbreakable Radiance that can be obtained by trading with a Horned Wandering Trader.
+This variant adds the Aether Affinity (pseudo-)enchantment that allows the wearer to equip both Radiance and Elytra at the same time.
+
+#### Technical
+- All Radiance have `CustomModelData:115114100` and custom tag `srd_radiance`
+- Fragile and Unbreakable Radiance have `srd_radiance:1`
+- Aether Radiance have `srd_radiance:2`
+
 ## Functions
 *Split between 'Available' (i.e. fine to call using `/function`) and 'Internal' (not intended to be called by `/function`).*
 
