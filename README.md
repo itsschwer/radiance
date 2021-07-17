@@ -52,7 +52,7 @@ Note: regular Netherite armor calculates damage reduction using Armor, Armor Tou
 
 Horned Wither Skeleton is a custom Wither Skeleton variant that can be visually identified by the End Rod protruding from their forehead and lack of weapon.
 
-Horned Wither Skeletons have increased health *(100/20)*, follow range *(24/16)*, movement speed *(0.3/0.25)*, and attack damage *(20/4)*, as well as higher knockback resistance *(0.6)*. Additionally, the do not despawn naturally.
+Horned Wither Skeletons have increased health *(100/20)*, follow range *(24/16)*, movement speed *(0.3/0.25)*, and attack damage *(20/4)*, as well as higher knockback resistance *(0.6)*. Additionally, they do not despawn naturally.
 
 Horned Wither Skeletons do not drop anything, however, defeating one grants the killer the hidden advancement `kill_horned_reward`. This advancement rewards the recipient with a Fragile Radiance. Note that since this is an advancement reward, it is only obtainable through player kills.
 
@@ -138,7 +138,7 @@ Gives the target entity *(only succeeds for players)* a Fragile Radiance.
 Called by `kill_horned_reward`, which is a reward function for hidden advancement `kill_horned_reward`.
 
 #### `give_unbreakable_radiance`
-Gives the target entity *(only succeeds for players)* a Radiance.
+Gives the target entity *(only succeeds for players)* an Unbreakable Radiance.
 
 Not used internally.
 
@@ -191,7 +191,7 @@ Summons a new Item entity and cuts the `Item` nbt from `schwer:srd_store`. Also 
 
 <mark>Note: the `Owner` tag appears to be ignored by non-players (untest with players), unsure if this is intentional Minecraft behaviour.</mark>
 
-Called by `force_unequip_`\[`chest`/`legs`/`feet`\]
+Called by `force_unequip_`\[`chest`/`legs`/`feet`\].
 
 #### `tick`
 The main update loop. Handles the conversion of Wither Skeletons to Horned Wither Skeletons and unemployed Villagers to Horned Wandering Traders, as well as Radiance armor checking.
