@@ -36,8 +36,8 @@ Note: regular Netherite armor calculates damage reduction using Armor, Armor Tou
 *This datapack was developed in 1.17 (`"pack_format": 7`) but should be compatible with versions using an equivalent or greater `pack_format`, barring major changes to commands/datapacks.*
 
 1. Download:
-    - [Repository as a `.zip`](https://github.com/itsschwer/gateways/archive/refs/heads/master.zip) *(Code > Download ZIP)*
-    - [Release](https://github.com/itsschwer/gateways/releases) *(will need to unzip before installing into a save)*
+    - [Repository as a `.zip`](https://github.com/itsschwer/radiance/archive/refs/heads/master.zip) *(Code > Download ZIP)*
+    - [Release](https://github.com/itsschwer/radiance/releases) *(will need to unzip before installing into a save)*
 2. Install into a save like any other datapack.
 3. *(Optional)* Copy the bundled `radiance_visual` resource pack into `.minecraft/resourcepacks`
     - <mark>Vanilla Minecraft currently doesn't support using `CustomModelData` to override armor models [*(feedback post)*](https://feedback.minecraft.net/hc/en-us/community/posts/360056255091-Custom-armor-models)</mark>, so the current options are to:
