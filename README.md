@@ -80,14 +80,14 @@ Horned Wandering Traders have the same trades as regular Wandering Trader offers
 #### Custom Radiance Trades
 | Buy | BuyB | Sell |
 | --- | ---  | ---  |
-| Radiance *(Unbreakable)* | Phantom Membrane (16) | Radiance *(+ Aether Affinity)* |
-| Fragile Radiance | Nether Star (3) | Radiance *(Unbreakable)* |
+| Unbreakable Radiance | Phantom Membrane (16) | Radiance *(+ Aether Affinity)* |
+| Fragile Radiance | Nether Star (3) | Unbreakable Radiance |
 
 <center><img alt="Screenshot of custom Radiance trades" src="images/trades.png?raw=true"></img></center>
 
 ### Radiance
 
-Radiance is the new alternative to Netherite armor and has three variants: fragile, unbreakable, and aether.
+Radiance is the new alternative to Netherite armor and has three variants: Fragile, Unbreakable, and Aether.
 
 All Radiance provide +4 Knockback Resistance and are enchanted with:
 - Protection ※ *(XX)*
@@ -137,7 +137,7 @@ Gives the target entity *(only succeeds for players)* a Fragile Radiance.
 
 Called by `kill_horned_reward`, which is a reward function for hidden advancement `kill_horned_reward`.
 
-#### `give_radiance`
+#### `give_unbreakable_radiance`
 Gives the target entity *(only succeeds for players)* a Radiance.
 
 Not used internally.
