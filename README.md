@@ -4,6 +4,8 @@ A datapack implementing a unique new alternative to Netherite armor focused on a
 
 ## Intention
 
+<img align="right" width=15% alt="Screenshot of Wither Skeleton equipped with Radiance" src="images/appearance.png?raw=true"></img>
+
 This datapack aims to provide a balanced, survival-friendly alternative to Netherite armor, including a unique obtaining method.
 
 The focus on aesthetics revolves around allowing players to show their skins without sacrificing defense. This is done by compacting a typical end-game armor set into a single item which is retextured using a complementary resource pack.
@@ -80,6 +82,8 @@ Horned Wandering Traders have the same trades as regular Wandering Trader offers
 | --- | ---  | ---  |
 | Radiance *(Unbreakable)* | Phantom Membrane (16) | Radiance *(+ Aether Affinity)* |
 | Fragile Radiance | Nether Star (3) | Radiance *(Unbreakable)* |
+
+<center><img alt="Screenshot of custom Radiance trades" src="images/trades.png?raw=true"></img></center>
 
 ### Radiance
 
