@@ -187,9 +187,7 @@ Sets up this datapack by starting the `tick` loop.
 Called through Minecraft's *`load.json`*.
 
 #### `summon_copy`
-Summons a new Item entity and cuts the `Item` nbt from `schwer:srd_store`. Also sets the Item's `Owner` and `Thrower` to the target entity's UUID to control who can pick up the item and mimic normal item throwing respectively.
-
-<mark>Note: the `Owner` tag appears to be ignored by non-players (untest with players), unsure if this is intentional Minecraft behaviour.</mark>
+Summons a new Item entity and cuts the `Item` nbt from `schwer:srd_store`. Also sets the Item's `Thrower` to the target entity's UUID to mimic normal item throwing.
 
 Called by `force_unequip_`\[`chest`/`legs`/`feet`\].
 
