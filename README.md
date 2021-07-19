@@ -111,6 +111,9 @@ This variant adds the Aether Affinity (pseudo-)enchantment that allows the weare
 - Fragile and Unbreakable Radiance have `srd_radiance:1`
 - Aether Radiance have `srd_radiance:2`
 
+### Kitsune Integration
+A Kitsune can revert a Radiance back into a Fragile Radiance using (exactly) 16 Glowstone Dust. This is useful if you have altered the NBT tags *(e.g. renaming)*, as the Horned Wandering Trader won't accept modified Radiance.
+
 ## Functions
 *Split between 'Available' (i.e. fine to call using `/function`) and 'Internal' (not intended to be called by `/function`).*
 
@@ -197,6 +200,14 @@ The main update loop. Handles the conversion of Wither Skeletons to Horned Withe
 
 Initialises from `load`.
 
+#### **kitsune**
+- `kitsune/revert_radiance_check`
+    - Uses predicate `kitsune/radiance_check` to check if held item is a Radiance
+    - Checks if the blessing material is exactly 16 Glowstone Dust
+- `kitsune/revert_radiance`
+    - Sets the target Kitsune's held item to a Fragile Radiance
+    - Consumes the blessing material
+
 ## References
 *(Roughly in personal use order)*
 - [Minecraft Wiki](https://minecraft.fandom.com/wiki/Minecraft_Wiki)
@@ -213,3 +224,5 @@ Initialises from `load`.
     - *Used to set up the resource pack structure*
 - [BronGhast014 — How to use Custom Model Data in Minecraft!](https://www.youtube.com/watch?v=HrFMdcjonyo)
     - *Used to learn how to create model overrides*
+- [kitsune](https://github.com/itsschwer/kitsune)
+    - *Integration*
