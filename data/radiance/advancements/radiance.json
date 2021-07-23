@@ -6,7 +6,7 @@
 		},
 		"title": "Radiance",
 		"frame": "goal",
-		"description": ["",{"text":"An aesthetic alternative to Netherite armor","color":"#C77AFF"}],
+		"description": ["",{"text":"An aesthetic alternative to Netherite armor","color":"#C77AFF"},{"text":"\nv1.1.1","color":"blue","italic":true}],
 		"show_toast": false,
 		"announce_to_chat": false
 	},
