@@ -112,7 +112,7 @@ This variant adds the Aether Affinity (pseudo-)enchantment that allows the weare
 - Aether Radiance have `srd_radiance:2`
 
 ### Kitsune Integration
-A Kitsune can revert a Radiance back into a Fragile Radiance using (exactly) 16 Glowstone Dust. This is useful if you have altered the NBT tags *(e.g. renaming)*, as the Horned Wandering Trader won't accept modified Radiance.
+A [Kitsune](https://github.com/itsschwer/kitsune) can revert a Radiance back into a Fragile Radiance using (exactly) 16 Glowstone Dust. This is useful if you have altered the NBT tags *(e.g. renaming)*, as the Horned Wandering Trader won't accept modified Radiance.
 
 ## Functions
 *Split between 'Available' (i.e. fine to call using `/function`) and 'Internal' (not intended to be called by `/function`).*
